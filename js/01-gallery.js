@@ -41,12 +41,6 @@ function openModal(currentImageUrl) {
           />
     </div>
 `,
-    {
-      onShow: (modalFromLib) => {
-        modalFromLib.element().querySelector("img").onclick =
-          modalFromLib.close;
-      },
-    }
   );
 
   modalFromLib.show();
