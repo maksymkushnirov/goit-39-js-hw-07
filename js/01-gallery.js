@@ -19,6 +19,7 @@ const arrayEl = galleryItems
 </div>`
   )
   .join("");
+  
 galleryEl.insertAdjacentHTML("afterbegin", arrayEl);
 
 galleryEl.addEventListener("click", onGetLargeImage);
